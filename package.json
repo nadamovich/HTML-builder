@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "html-builder task for RSSchool",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-01": "eslint 01-read-file/index.js",
+    "lint-02": "eslint 02-write-file/index.js",
+    "lint-03": "eslint 03-files-in-folder/index.js",
+    "lint-04": "eslint 04-copy-directory/index.js",
+    "lint-05": "eslint 05-merge-styles/index.js",
+    "lint-06": "eslint 06-build-page/index.js"
   },
   "author": "evgeniimal",
   "license": "ISC",
